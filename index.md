@@ -6,6 +6,6 @@
 
 [OOP Graphical Calculator built in Proccesing 4]()
 
-![Running Calculator]()
+![Running Calculator](https://github.com/Ptangytang23/programmingportfolio/blob/main/images/calc.png)
 
 [Calculator Sourcer Code]()
