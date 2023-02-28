@@ -1,4 +1,5 @@
 # Calculator source code
+<img width="419" alt="calc" src="https://user-images.githubusercontent.com/111658930/221916705-758c8fc6-5883-476a-bd87-73bf44bc2306.png">
 Button[] numButtons = new Button[10];
 Button[] opButtons = new Button [12];
 String dVal = "0.0";
