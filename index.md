@@ -15,6 +15,6 @@
 ## SpaceGame
 [OOP Space Game built in Processing 4]()
 
-![Runnning Space game]()
+![Runnning Space game](https://github.com/Ptangytang23/programmingportfolio/blob/main/images/SpaceGame.png)
 
 [Space Game source code]()
