@@ -11,6 +11,7 @@
 
 [Calculator Source Code](https://github.com/Ptangytang23/programmingportfolio/tree/main/src/calc)
 
+[Description of calculator] ()
 
 ## SpaceGame
 [OOP Space Game built in Processing 4]()
@@ -18,3 +19,5 @@
 ![Runnning Space game](https://github.com/Ptangytang23/programmingportfolio/blob/main/images/SpaceGame.png)
 
 [Space Game source code](https://github.com/Ptangytang23/programmingportfolio/tree/main/src/Space%20Game)
+
+[Space Game description]()
