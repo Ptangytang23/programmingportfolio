@@ -22,4 +22,4 @@
 
 [Space Game source code](https://github.com/Ptangytang23/programmingportfolio/tree/main/src/Space%20Game)
 
-[Space Game description]()
+[Space Game description](https://github.com/Ptangytang23/programmingportfolio/blob/main/src/Space%20Game/Space%20Game%20desciption)
