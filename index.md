@@ -28,7 +28,7 @@
 
 [OOP Zoog built in Proccesing 4]()
 
-![Running Zoog]()
+![Running Zoog](https://github.com/Ptangytang23/programmingportfolio/blob/main/images/Zoog.png)
 
 [Zoog source code]()
 
