@@ -32,7 +32,7 @@
 
 [Zoog source code](https://github.com/Ptangytang23/programmingportfolio/tree/main/src/zoog)
 
-[Space Game description]()
+[Zoog description](https://github.com/Ptangytang23/programmingportfolio/blob/main/src/zoog/Zoog%20description)
 
 
 
