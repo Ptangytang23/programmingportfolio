@@ -1,0 +1,43 @@
+//Preston Tang | September 8 2022 | Zoog
+
+void setup() {
+  size(1000, 900);
+}
+
+void draw() {
+  background(255);
+  rectMode(CENTER);
+  //zoog(random(width),random(height)
+  zoog(mouseX, mouseY);
+  zoog(mouseX-30, mouseY);
+  zoog(mouseX+30, mouseY);
+}
+
+void zoog(int x, int y) {// Zoog's body
+  stroke(0);
+  fill(20, 88, 20);
+  rect(x, y, 20, 100);
+
+  //Zoog's head
+  stroke(0);
+  fill(#11F795);
+  ellipse(x, y-30, 60, 60);
+
+  //Zoog's eyes
+  fill(#7C0416);
+  ellipse(x-18, y-30, 16, 32);
+  ellipse(x+18, y-30, 16, 32);
+
+
+  //Zoog's legs
+  stroke(0);
+  line(x-10, y+50, x-20, y+60);
+  line(x+10, y+50, x+20, y+60);
+
+  //Zoog's arms
+  stroke(0);
+  line(x-20, y, x, y);
+  line(x+20, y, x, y);
+  line(x-20, y+20, x, y);
+  line(x+20, y, x, y);
+}
