@@ -1,0 +1,37 @@
+public class ShapeTester {
+    public static void main(String[] args) {
+        // Test Box
+        Box myBox = new Box();
+        myBox.setLength(5.0);
+        myBox.setBreadth(4.0);
+        myBox.setHeight(3.0);
+
+        double boxVolume = myBox.getVolume();
+        double boxSurfaceArea = myBox.getSurfaceArea();
+
+        System.out.println("Volume of the box: " + boxVolume);
+        System.out.println("Surface area of the box: " + boxSurfaceArea);
+
+        // Test Sphere
+        Sphere mySphere = new Sphere();
+        mySphere.setRadius(5.0);
+
+        double sphereVolume = mySphere.getVolume();
+        double sphereSurfaceArea = mySphere.getSurfaceArea();
+
+        System.out.println("Volume of the sphere: " + sphereVolume);
+        System.out.println("Surface area of the sphere: " + sphereSurfaceArea);
+
+        // Test Pyramid
+        Pyramid myPyramid = new Pyramid();
+        myPyramid.setBaseLength(5.0);
+        myPyramid.setBaseWidth(4.0);
+        myPyramid.setHeight(3.0);
+
+        double pyramidVolume = myPyramid.getVolume();
+        double pyramidSurfaceArea = myPyramid.getSurfaceArea();
+
+        System.out.println("Volume of the pyramid: " + pyramidVolume);
+        System.out.println("Surface area of the pyramid: " + pyramidSurfaceArea);
+    }
+}
