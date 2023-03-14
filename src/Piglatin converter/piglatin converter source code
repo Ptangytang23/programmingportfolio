@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class PigLatinConverter {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your first name: ");
+        String firstName = scanner.nextLine();
+        System.out.println("Enter your last name: ");
+        String lastName = scanner.nextLine();
+        
+        String pigLatinFirstName = toPigLatin(firstName);
+        String pigLatinLastName = toPigLatin(lastName);
+        
+        System.out.println("Your Pig Latin name is: " + pigLatinFirstName + " " + pigLatinLastName);
+    }
+    
+    public static String toPigLatin(String name) {
+        String pigLatinName;
+        
+        // Check if name starts with a vowel
+        if (name.charAt(0) == 'a' || name.charAt(0) == 'e' || name.charAt(0) == 'i' || name.charAt(0) == 'o' || name.charAt(0) == 'u') {
+            pigLatinName = name + "ay";
+        }
+        else {
+            pigLatinName = name.substring(1) + name.charAt(0) + "ay";
+        }
+        
+        return pigLatinName;
+    }
+}
