@@ -40,7 +40,7 @@
 
 [pig latin converter source code](https://github.com/Ptangytang23/programmingportfolio/blob/main/src/Piglatin%20converter/piglatin%20converter%20source%20code)
 
-[Zoog description](https://github.com/Ptangytang23/programmingportfolio/blob/main/src/zoog/Zoog%20description)
+[pig latin converter description](https://github.com/Ptangytang23/programmingportfolio/blob/main/src/Piglatin%20converter/pig%20latin%20converter%20description)
 
 
 
