@@ -1,0 +1,32 @@
+public class Pyramid {
+    private double baseLength;
+    private double baseWidth;
+    private double height;
+
+    public Pyramid() {
+        baseLength = 0;
+        baseWidth = 0;
+        height = 0;
+    }
+
+    public void setBaseLength(double baseLength) {
+        this.baseLength = baseLength;
+    }
+
+    public void setBaseWidth(double baseWidth) {
+        this.baseWidth = baseWidth;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public double getVolume() {
+        return baseLength * baseWidth * height / 3;
+    }
+
+    public double getSurfaceArea() {
+        double slantHeight = Math.sqrt(Math.pow(baseLength / 2, 2) + Math.pow(height, 2));
+        return baseLength * baseWidth + baseLength * slantHeight + baseWidth * slantHeight;
+    }
+}
