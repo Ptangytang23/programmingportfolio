@@ -1,1 +1,36 @@
+import java.util.Random;
+import java.util.Scanner;
 
+public class Main {
+    
+    // Define arrays for prefixes, suffixes, and roots
+    private static final String[] PREFIXES = {"anti", "dis", "en", "ex", "in", "pre", "re", "sub", "super", "un", "inter", "over", "mis", "non", "semi", "post", "trans", "micro", "macro", "ultra"};
+    private static final String[] SUFFIXES = {"able", "ful", "ish", "less", "ly", "ment", "ness", "ous", "ship", "hood", "dom", "tion", "sion", "ize", "fy", "en", "er", "est", "ful", "ous"};
+    private static final String[] ROOTS = {"act", "bio", "chrono", "duct", "equi", "flect", "gen", "hypo", "ject", "kin", "lum", "manu", "neo", "ortho", "ped", "quer", "rupt", "sect", "temp", "viv"};
+    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+        
+       
+        System.out.print("How many random words do you want to generate? ");
+        int numWords = scanner.nextInt();
+        
+        
+        for (int i = 0; i < numWords; i++) {
+            // Generate random indices for each word part
+            int prefixIndex = random.nextInt(PREFIXES.length);
+            int suffixIndex = random.nextInt(SUFFIXES.length);
+            int rootIndex = random.nextInt(ROOTS.length);
+            
+           
+            String word = PREFIXES[prefixIndex] + ROOTS[rootIndex] + SUFFIXES[suffixIndex];
+            
+            
+            System.out.println((i+1) + ". " + word + " - a word formed by combining the prefix \"" + PREFIXES[prefixIndex] + "\", the root \"" + ROOTS[rootIndex] + "\", and the suffix \"" + SUFFIXES[suffixIndex] + "\".");
+        }
+        
+        scanner.close();
+    }
+
+}
